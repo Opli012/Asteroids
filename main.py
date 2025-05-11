@@ -22,7 +22,7 @@ def main():
 
     Player.containers = (updatable, drawable)
 
-    Shot.containers = (updatable, drawable)
+    Shot.containers = (shots, updatable, drawable)
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)
 
